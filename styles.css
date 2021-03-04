@@ -16,7 +16,6 @@ body {
 a{
     color: ghostwhite;
     text-decoration: none;
-    font-size: 28px;
 }
 
 header {
@@ -31,8 +30,10 @@ header {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    align-items: flex-start;
-   margin: 2px;
+    align-items: center;
+    margin: 0 15px;
+    padding: 0;
+    font-size: 20px;
 
 }
 
