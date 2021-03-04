@@ -7,12 +7,14 @@ body {
     padding: 0;
     height: 100vh;
     width: 100vw;
+    font-family: 'Oxygen', sans-serif;
+    color: ghostwhite;
 }
 
 header {
     grid-row: 1;
     grid-column: 1 / span 3;
-    background: steelblue;
+    background: #0071c7;
     text-align: center;
 
 }
@@ -37,24 +39,26 @@ ul {
 main {
     grid-row: 2;
     grid-column: 2;
-    background-color: #0071c7;
+    background-color: #5c8adb;
     background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
 }
 
 footer {
     grid-row: 3;
     grid-column: 1 / span 3;
-    background: steelblue;
+    background: #0071c7;
 }
 
 .nav-bar {
     grid-row: 2;
     grid-column: 1;
-    background: lightsteelblue;
+    background-color: #5c8adb;
+    background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
 }
 
 .aside-bar {
     grid-row: 2;
     grid-column: 3;
-    background: lightsteelblue;
+    background-color: #5c8adb;
+    background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
 }
