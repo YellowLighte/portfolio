@@ -37,6 +37,8 @@ ul {
 main {
     grid-row: 2;
     grid-column: 2;
+    background-color: #0071c7;
+    background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
 }
 
 footer {
