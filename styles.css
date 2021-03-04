@@ -7,16 +7,16 @@ body {
     padding: 0;
     height: 100vh;
     width: 100vw;
-    font-family: 'Oxygen', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: ghostwhite;
 }
 
 header {
     grid-row: 1;
     grid-column: 1 / span 3;
-    background: #0071c7;
-    text-align: center;
-
+    text-align: left;
+    background-color: #0050db;
+    background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
 }
 
 .nav-menu {
@@ -43,10 +43,20 @@ main {
     background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
 }
 
+.intro {
+    font-size: 175px;
+    margin: 0;
+}
+
+main p {
+    padding: 5px;
+}
+
 footer {
     grid-row: 3;
     grid-column: 1 / span 3;
-    background: #0071c7;
+    background-color: #0050db;
+    background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
 }
 
 .nav-bar {
